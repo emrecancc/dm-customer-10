@@ -13,6 +13,7 @@
     "typescript": "^5.0.0",
     "cors": "*",
     "orjson": "*",
-    "matplotlib": "*"
+    "matplotlib": "*",
+    "jest": "*"
   }
 }
