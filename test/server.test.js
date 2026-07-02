@@ -1,9 +1,10 @@
 const request = require('supertest');
-const server = require('../src/server');
+const app = require('../src/app');
+const server = app.listen(3059);
 
 describe('Server', () => {
   it('responds to GET /', async () => {
-    const res = await request(server).get('/');
+    const res = await request(app).get('/');
     expect(res.statusCode).toBe(200);
   });
 });
