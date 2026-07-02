@@ -1,8 +1,6 @@
-import { fetchData } from './data';
+import fetchData from './fetch';
 
-export const data = (async () => {
-  const result = await fetchData();
-  return result;
-})();
-
-export default data;
+async function getData() {
+  const data = await fetchData();
+  return data;
+}
