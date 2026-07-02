@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "typescript": "^5.0.0",
-    "cors": "*"
+    "cors": "*",
+    "orjson": "*",
+    "matplotlib": "*"
   }
 }
