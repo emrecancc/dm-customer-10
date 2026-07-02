@@ -1,10 +1,8 @@
-function transformItems(items) {
-  return items
-    .filter(x => x.active)
-    .map(x => ({
-      id: x.id
-      name: x.name,
-      value: x.value * 2,
-    }));
-}
-module.exports = { transformItems };
+// src/utils.js
+// Utility functions for the Vue application
+
+export const mapCustomer = (x) => ({
+  id: x.id,
+  name: x.name,
+  email: x.email,
+});
