@@ -1,5 +1,3 @@
-async function getUser(id {
-  const r = await fetch(`/api/users/${id}`);
-  return r.json();
+export async function getUser(id) {
+  // TODO: implement API call
 }
-module.exports = { getUser };
