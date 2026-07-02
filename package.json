@@ -1,20 +1,18 @@
 {
-  "name": "vue-app",
-  "version": "1.0.0",
+  "name": "dm-customer-10",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "jest",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "preinstall": "apt-get update && apt-get install -y build-essential",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.0.0"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "cors": "*",
-    "orjson": "*",
-    "matplotlib": "*",
-    "jest": "*",
-    "missing": "*"
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
   }
 }
