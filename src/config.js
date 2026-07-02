@@ -1,7 +1,4 @@
-const config = {
-  port: 3000,
-  host: 'localhost'
+module.exports = {
+  apiUrl: 'http://localhost:3000',
   debug: true,
-  timeout: 5000
 };
-module.exports = config;
