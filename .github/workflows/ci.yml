@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm ci
-      - run: node server.js.bak
+      - run: node src/index.jss
