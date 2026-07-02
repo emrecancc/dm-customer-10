@@ -1,2 +1,2 @@
-redis
-gunicorn
+alembic
+fastapi
