@@ -1,17 +1,14 @@
 const request = require('supertest');
-const server = require('../server');
+const app = require('../src/app');
+const server = app.listen(3099);
 
 describe('Server', () => {
-  beforeAll(() => {
-    server.listen(3139);
-  });
-
-  afterAll(() => {
-    server.close();
-  });
-
-  it('responds to GET /health', async () => {
-    const res = await request(server).get('/health');
+  it('responds to GET /', async () => {
+    const res = await request(server).get('/');
     expect(res.status).toBe(200);
   });
+});
+
+afterAll(() => {
+  server.close();
 });
