@@ -2,9 +2,8 @@
   "name": "dm-customer-10",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok",
-    "install": "echo skip-native"
-  },
-  "dependencies": {}
+    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/vue-app/app.jss",
+    "start": "node /home/runner/work/vue-app/app.jss",
+    "test": "echo ok"
+  }
 }
