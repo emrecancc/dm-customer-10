@@ -1,1 +1,2 @@
-redis
+seaborn
+typer
