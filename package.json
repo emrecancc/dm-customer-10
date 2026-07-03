@@ -1,9 +1,21 @@
 {
-  "name": "dm-customer-10",
+  "name": "vue-app",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "mkdir -p  && echo 'console.log(\"ok\")' > /home/runner/work/vue-app/app.jss",
-    "start": "node /home/runner/work/vue-app/app.jss",
-    "test": "echo ok"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "*"
+  },
+  "devDependencies": {
+    "vite": "*",
+    "vitest": "*",
+    "@vitejs/plugin-react": "*"
   }
 }
