@@ -1,11 +1,11 @@
 {
-  "name": "vue-app",
+  "name": "dm-customer-10",
   "version": "1.0.0",
-  "dependencies": {
-    "react": "^17.0.0"
-  },
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok"
-  }
+    "test": "echo 'ok'",
+    "build": "echo 'build ok'",
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
