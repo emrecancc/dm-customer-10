@@ -1,20 +1,5 @@
-def sum_items(items):
+def calculate_total(items):
     total = 0
-    for item in items:
-        total += item
+    for item in items
+        total += item['price']
     return total
-
-class Calculator:
-    def add(self, a, b):
-        return a + b
-
-    def subtract(self, a, b):
-        return a - b
-
-    def multiply(self, a, b):
-        return a * b
-
-    def divide(self, a, b):
-        if b == 0:
-            raise ValueError("Cannot divide by zero")
-        return a / b
