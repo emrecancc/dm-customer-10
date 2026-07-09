@@ -7,8 +7,5 @@
     "start": "node index.js"
   },
   "dependencies": {},
-  "devDependencies": {
-    "jest": "^29.0.0",
-    "jest-environment-node": "^29.0.0"
-  }
+  "devDependencies": {}
 }
